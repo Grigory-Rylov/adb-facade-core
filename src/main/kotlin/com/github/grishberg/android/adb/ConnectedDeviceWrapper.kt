@@ -12,5 +12,5 @@ interface ConnectedDeviceWrapper {
         maxTimeUnits: TimeUnit
     )
 
-    fun getClient(applicationName: String): ClientWrapper
+    fun getClient(applicationName: String): ClientWrapper?
 }
