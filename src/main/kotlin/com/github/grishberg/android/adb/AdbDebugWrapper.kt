@@ -25,4 +25,9 @@ interface AdbDebugWrapper {
      * Returns the debug port used by the selected [ClientWrapper].
      */
     fun getSelectedDebugPort(): Int
+
+    /**
+     * Set trace buffer size in mb.
+     */
+    fun setProfilerBufferSizeMb(sizeInMb: Int)
 }
