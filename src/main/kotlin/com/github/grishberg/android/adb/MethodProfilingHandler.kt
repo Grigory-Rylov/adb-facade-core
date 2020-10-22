@@ -9,7 +9,7 @@ interface MethodProfilingHandler {
      * @param remoteFilePath the device-side path of the trace file.
      * @param client the client that was profiled.
      */
-    fun onSuccess(remoteFilePath: String?, client: ClientWrapper)
+    fun onSuccess(remoteFilePath: String, client: ClientWrapper)
 
     /**
      * Called when a method tracing was successful.
