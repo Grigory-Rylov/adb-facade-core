@@ -16,7 +16,7 @@
 package com.github.grishberg.android.adb
 
 
-internal abstract class MultiLineShellOutReceiver : ShellOutReceiver {
+abstract class MultiLineShellOutReceiver : ShellOutReceiver {
     private var trimLines = true
 
     /** unfinished message line, stored for next packet  */
