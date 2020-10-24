@@ -4,6 +4,11 @@ import java.util.concurrent.TimeUnit
 
 
 interface ConnectedDeviceWrapper {
+    /**
+     * Device Serial number.
+     */
+    val serialNumber: String
+
     fun executeShellCommand(cmd: String, receiver: ShellOutReceiver)
 
     fun executeShellCommand(
